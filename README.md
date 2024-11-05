@@ -45,7 +45,7 @@ docker-compose up -d --build
 ```
 
 ## Public hosting:
-
+[http://13.211.132.174:8080](http://13.211.132.174:8080)
 
 ## Self-Evaluation: 
 | Category              | Criteria             | Points |

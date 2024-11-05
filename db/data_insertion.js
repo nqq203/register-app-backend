@@ -37,13 +37,11 @@ async function insertUser(username, email, password) {
 }
 
 async function main() {
-  await insertUser('john_doe', 'john.doe@example.com', 'password1');
-  await insertUser('jane_doe', 'jane.doe@example.com', 'password2');
-  await insertUser('user1', 'user1@example.com', 'password2');
-  await insertUser('user2', 'user2@example.com', 'password2');
-  await insertUser('user3', 'user3@example.com', 'password2');
-  await insertUser('user4', 'user4@example.com', 'password2');
-  await insertUser('user5', 'user5@example.com', 'password2');
+  await insertUser('john_doe', 'john.doe@example.com', 'Abcd@1234');
+  await insertUser('jane_doe', 'jane.doe@example.com', 'Abcd@1234');
+  await insertUser('user1', 'user1@example.com', 'Abcd@1234');
+  await insertUser('user2', 'user2@example.com', 'Abcd@1234');
+  await insertUser('user3', 'user3@example.com', 'Abcd@1234');
 
   await pool.end(); // Close the pool connection after all inserts are done
 }
